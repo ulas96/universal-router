@@ -12,9 +12,9 @@ contract DeployMonad is DeployUniversalRouter {
             v2Factory: 0xe26dd94f67Ca3615fcaF6062750147F37Df84F7a,
             v3Factory: 0xA411B86736d16423d0Ed7585330B513310737083,
             pairInitCodeHash: hex"1fa70eb1d54eb2007acbf24d7a22d171e4d7d83f736b11d5628c4c35a82a2f00",
-            poolInitCodeHash: 0xcfaba1ed57e01dd442db47243552c0141df42f0d7fea9429885291a136af882b,
+            poolInitCodeHash: 0xe6376d564e1294a071d170588cad20d4df7f1260a015281ee8e31f2ca585b6f8,
             v4PoolManager: address(0),
-            v3NFTPositionManager: 0x6ECA071ba62EEd20139373fd8bAcAe8b33D6570a,
+            v3NFTPositionManager: 0x31aD3feaA7B13aEf6f9d84814F217A9d0068a485,
             v4PositionManager: address(0)
         });
 

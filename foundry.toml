@@ -1,10 +1,13 @@
 [profile.default]
+compiler-version = '0.8.26'
 src = 'contracts'
 out = 'out'
 libs = ['lib']
 via_ir = true
 solc_version = '0.8.26'
 evm_version = "cancun"
+cache = true
+cache_path = 'cache'
 
 optimizer_runs = 44444444
 fs_permissions = [{ access = "read", path = "./script/deployParameters/"}]
@@ -18,11 +21,13 @@ compilation_restrictions = [
 ]
 
 [fmt]
+
 line_length = 120
 quote_style = 'single'
 
 [profile.lite.optimizer_details.yulDetails]
 optimizerSteps = ''
+
 
 [rpc_endpoints]
 sepolia = "https://rpc.sepolia.org"
